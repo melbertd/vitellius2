@@ -1,0 +1,189 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+
+
+body {
+  /*padding-top: 56px;*/
+  font-family: "Open Sans", sans-serif !important;
+}
+
+
+
+section {
+	margin-top: 50px;
+}
+
+.navbar{
+	border-bottom: 5px solid #0d5baf;
+}
+
+.topnav-border-style{
+	width: 100%;
+    border-bottom: 10px solid #0d5baf;
+    border-top: 2px solid #fff;
+}
+
+.logo-header{
+	height: 50px;
+}
+
+.top-contacts{
+	color: #fff;
+	background-color: #343a40;
+	text-align: center;
+	padding: 5px;
+}
+
+.top-contacts a{
+	color: #fff;
+}
+
+.top-contacts .social{
+	margin-left: 10px;
+}
+
+.carousel-item {
+  height: 50vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.our-service{
+	font-size: 28px;
+    font-weight: 700;
+    display: inline-block;
+	position: relative;
+}
+
+.our-service-desc{
+	font-size: 16px;
+    line-height: 25px;
+    font-weight: normal;
+    max-width: 500px;
+}
+}
+
+.service-title{
+	font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    margin: 10px auto;
+}
+
+.services-showAll{
+	background-color: #007bff;
+    padding: 7px 30px 7px 30px;
+    border-radius: 50px;
+	color: #fff;
+}
+
+.services-showAll:hover{
+	color: #fff;
+	outline: none;
+    text-decoration: none;
+	background-color: #0d66c6;
+    color: #fff;
+}
+
+
+
+
+
+/********	Services 	*********/
+.services-company{
+	font-size: 30px;
+    font-weight: bold;
+}
+
+.svc-offered{
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.svc-offered h3, .svc-keyResource h3{
+	color: #0d5baf;
+	border-bottom: 2px solid #6c757d;
+}
+
+.svc-offered li i, .svc-keyResource li i{
+	color: #0d5baf;
+}
+
+.svc-keyResource{
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.svc-img{
+	height: 185px;
+	width: 255px;
+}
+
+.aboutUS .services-company{
+	font-size: 30px;
+    font-weight: bold;
+	color:#0d5baf;
+}
+
+.aboutUS h3, .abt-accreditations h3{
+	color: #0d5baf;
+	border-bottom: 2px solid #6c757d;
+}
+
+.abt-accreditations {
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.abt-accreditations h6 i{
+	color: #0d5baf;
+}
+
+
+
+
+
+
+
+
+
+/*********FOOTER*********/
+
+footer{
+	color: #fff;
+}
+
+footer p{
+	margin-bottom: 0;
+}
+
+.logo-ftr{ 
+	height: 130px;
+}
+
+.ftr-section{
+	margin-bottom: 10px;
+}
+
+.ftr-section a {
+	color: #fff;
+}
+
+.ftr-section-title{
+	color: #007bff;
+}
+
+
+/**********Slider**********/
