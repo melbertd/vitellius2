@@ -116,7 +116,7 @@ const SignupForm = () => {
     return (
         <form onSubmit={formik.handleSubmit}>
             {
-                submitting == true ? "taena mo" : ""
+                submitting == true ? "loading" : ""
             }
             <div className="control-group form-group">
                 <div className="controls">
