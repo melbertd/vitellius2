@@ -4,7 +4,8 @@ import {
 	BrowserRouter as Router,
 	Switch,
 	Route,
-	Link
+	Link,
+	NavLink 
 } from "react-router-dom";
 
 export default function Header() {
@@ -25,16 +26,16 @@ export default function Header() {
 					<div className="collapse navbar-collapse" id="navbarResponsive">
 						<ul className="navbar-nav ml-auto">
 							<li>
-								<Link className="nav-link" to="/">Home</Link>
+								<NavLink  exact activeClassName="selected" className="nav-link" to="/">Home</NavLink >
 							</li>
 							<li>
-								<Link className="nav-link" to="/services">Services</Link>
+								<NavLink  exact activeClassName="selected" className="nav-link" to="/services">Services</NavLink >
 							</li>
 							<li>
-								<Link className="nav-link" to="/about">About Us</Link>
+								<NavLink  exact activeClassName="selected" className="nav-link" to="/about">About Us</NavLink >
 							</li>
 							<li>
-								<Link className="nav-link" to="/contact">Contact</Link>
+								<NavLink  exact activeClassName="selected" className="nav-link" to="/contact">Contact</NavLink >
 							</li>
 						</ul>
 					</div>

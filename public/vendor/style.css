@@ -11,7 +11,15 @@ body {
   font-family: "Open Sans", sans-serif !important;
 }
 
+a.selected{
+	color: #0d5baf !important;
+	border-bottom:1px solid #0d5baf;
+  }
 
+.formErr{
+	color: #f00;
+	margin-bottom: 10px;
+}
 
 section {
 	margin-top: 50px;
@@ -72,7 +80,6 @@ section {
     line-height: 25px;
     font-weight: normal;
     max-width: 500px;
-}
 }
 
 .service-title{
